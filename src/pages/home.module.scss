@@ -1,1 +1,44 @@
-// TODO
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.posts {
+  a {
+    display: flex;
+    flex-direction: column;
+
+    strong {
+      font-size: 2rem;
+      font-weight: bold;
+      color: var(--heading);
+    }
+
+    span {
+      margin-top: 8px;
+      font-size: 1.125rem;
+    }
+
+    div {
+      color: var(--info);
+      margin-top: 1rem;
+      display: flex;
+      align-items: center;
+
+      time {
+        margin-left: 8px;
+        font-size: 1rem;
+      }
+
+      p {
+        margin-left: 8px;
+        font-size: 1rem;
+      }
+    }
+
+    & + a {
+      margin-top: 3rem;
+    }
+  }
+}
