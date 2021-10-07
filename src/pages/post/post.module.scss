@@ -1,1 +1,38 @@
-// TODO
+.container {
+  height: 10rem;
+
+  img {
+    object-fit: contain;
+    width: 100%;
+  }
+}
+
+.content {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-top: 4rem;
+
+  strong {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--heading);
+  }
+
+  div {
+    color: var(--info);
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+
+    time {
+      margin-left: 8px;
+      font-size: 1rem;
+    }
+
+    p {
+      margin-left: 8px;
+      font-size: 1rem;
+    }
+  }
+}
